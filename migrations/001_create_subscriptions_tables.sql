@@ -1,0 +1,8 @@
+﻿CREATE TABLE IF NOT EXISTS subscriptions (
+    id SERIAL PRIMARY KEY,
+    service_name VARCHAR(100) NOT NULL,
+    price INTEGER NOT NULL,
+    user_id uuid NOT NULL,
+    start_date DATE DEFAULT CURRENT_TIMESTAMP,
+    end_date DATE DEFAULT CURRENT_TIMESTAMP
+);

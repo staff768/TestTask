@@ -1,0 +1,17 @@
+﻿server:
+  port: ":8080"
+  host: "localhost"
+
+database:
+  host: "postgres"
+  port: "5432"
+  user: "postgres"
+  password: "f21347qe"
+  dbname: "EffectiveTestTask"
+  sslmode: "disable"
+
+redis:
+  host: "redis"
+  port: "6379"
+  password: ""
+  db: 0
